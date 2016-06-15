@@ -17,13 +17,19 @@ namespace GoWithTheFlow
             string answer = Console.ReadLine();
             if (answer == "yes")
                 {
-                Console.WriteLine("Great!");
+                Console.WriteLine("Great");
             }
-            else 
-             {
-                Console.WriteLine("Then your computer is unplugged");
+            else if (answer == "no")         
+                {
+                    Console.WriteLine("Then your computer is unplugged");
             }
-            Console.ReadLine();
+             else
+                {
+                    Console.WriteLine("Thank you for contacting computer support");
+                }
+                {
+                    Console.ReadLine();
+                }
         }
     }
 }
