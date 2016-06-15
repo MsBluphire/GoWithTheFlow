@@ -19,11 +19,11 @@ namespace GoWithTheFlow
                 {
                 Console.WriteLine("Great!");
             }
-            else if(answer == "no")
-                            {
-                Console.WriteLine("Your computer is unplugged");
+            else 
+             {
+                Console.WriteLine("Then your computer is unplugged");
             }
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
